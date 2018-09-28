@@ -82,6 +82,7 @@ func (i *Info) Fill() {
 			"slim-objects",
 			"secure-param-upgrade",
 			"sprig",
+			"actions-in-task-list",
 		}
 	}
 }
