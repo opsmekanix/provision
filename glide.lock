@@ -1,5 +1,5 @@
 hash: fead7446b0d4bb4471f9882d64cb70a7ebf194bf35f5a942d3f1047431ffcf2a
-updated: 2018-08-03T09:20:24.668457024-05:00
+updated: 2018-10-01T14:22:16.626004066-05:00
 imports:
 - name: github.com/aokoli/goutils
   version: 3391d3790d23d03408670993e957e8f408993c34
@@ -11,15 +11,6 @@ imports:
   - quantile
 - name: github.com/boltdb/bolt
   version: fd01fc79c553a8e99d512a07e8e0c63d4a3ccfc5
-- name: github.com/cloudflare/cfssl
-  version: 80d5f5b4cfe73f5a918b851f03d468eb28499131
-  subpackages:
-  - crypto/pkcs7
-  - csr
-  - errors
-  - helpers
-  - helpers/derhelpers
-  - log
 - name: github.com/cpuguy83/go-md2man
   version: 691ee98543af2f262f35fbb54bdd42f00b9b9cc5
   subpackages:
@@ -58,15 +49,8 @@ imports:
   version: f5983d50c82d70eaa88c17080245cc871558081f
   subpackages:
   - proto
-- name: github.com/google/certificate-transparency-go
-  version: 3d9ebf85105f5bf34dc43cc6d821475356aa1645
-  subpackages:
-  - asn1
-  - tls
-  - x509
-  - x509/pkix
 - name: github.com/google/uuid
-  version: dec09d789f3dba190787f8b4454c7d3c936fed9e
+  version: 064e2069ce9c359c118179501254f67d7d37ba24
 - name: github.com/gorilla/websocket
   version: 5ed622c449da6d44c3c8329331ff47a9e5844f71
 - name: github.com/groob/plist
@@ -92,7 +76,7 @@ imports:
 - name: github.com/huandu/xstrings
   version: 7bb0250b58e5c15670406e6f93ffda43281305b1
 - name: github.com/imdario/mergo
-  version: 9f23e2d6bd2a77f959b2bf6acdbefd708a83a4a4
+  version: 7fe0c75c13abdee74b09fcacef5ea1c6bba6a874
 - name: github.com/inconshreveable/mousetrap
   version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
 - name: github.com/jessevdk/go-flags
@@ -114,7 +98,7 @@ imports:
   subpackages:
   - conn
 - name: github.com/Masterminds/semver
-  version: 4ca3c04fd4fe2a472df0d7121b1b9462f2214c43
+  version: 59c29afe1a994eacb71c833025ca7acf874bb1da
 - name: github.com/Masterminds/sprig
   version: 77bb58b7f5e10889a1195c21b9e7a96ee166f199
 - name: github.com/mattn/go-isatty
@@ -201,8 +185,6 @@ imports:
 - name: golang.org/x/crypto
   version: 56440b844dfe139a8ac053f4ecac0b20b79058f4
   subpackages:
-  - cryptobyte
-  - cryptobyte/asn1
   - curve25519
   - ed25519
   - ed25519/internal/edwards25519
@@ -211,10 +193,7 @@ imports:
   - nacl/box
   - nacl/secretbox
   - nacl/sign
-  - ocsp
   - pbkdf2
-  - pkcs12
-  - pkcs12/internal/rc2
   - poly1305
   - salsa20/salsa
   - scrypt
